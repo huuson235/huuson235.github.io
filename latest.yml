@@ -1,0 +1,8 @@
+version: 0.2.5
+files:
+  - url: BioChrom-Setup-0.2.5.exe
+    sha512: fhSZzv2dz7su14wSjqoo3O/t1unjyy+2BsI0BbjqWYjvTtCieEeNn/i9KIh3b+B6AE/n4tn1DNfwH95LHOvcsg==
+    size: 68643721
+path: BioChrom-Setup-0.2.5.exe
+sha512: fhSZzv2dz7su14wSjqoo3O/t1unjyy+2BsI0BbjqWYjvTtCieEeNn/i9KIh3b+B6AE/n4tn1DNfwH95LHOvcsg==
+releaseDate: '2021-04-03T20:13:20.034Z'
