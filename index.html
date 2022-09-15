@@ -1,1 +1,36 @@
+<!--
 <!DOCTYPE html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="favicon.ico"><title>bio-chrom</title><link href="js/chunk-2d0aa93c.a502e59f.js" rel="prefetch"><link href="js/chunk-2d216214.7163b552.js" rel="prefetch"><link href="js/chunk-2d216257.256ee085.js" rel="prefetch"><link href="js/chunk-2d230478.37dc3010.js" rel="prefetch"><link href="js/chunk-2d6a82f6.2412cb34.js" rel="prefetch"><link href="js/chunk-74826b85.b09d86d3.js" rel="prefetch"><link href="css/app.648bfd4c.css" rel="preload" as="style"><link href="css/chunk-vendors.6de732d5.css" rel="preload" as="style"><link href="js/app.f3cc0253.js" rel="preload" as="script"><link href="js/chunk-vendors.e2a1201d.js" rel="preload" as="script"><link href="css/chunk-vendors.6de732d5.css" rel="stylesheet"><link href="css/app.648bfd4c.css" rel="stylesheet"></head><body class="my-scrollbar"><p hidden>Cập nhật lần cuối: 19-07-2021 12:31:27</p><noscript><strong>We're sorry but bio-chrom doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script src="js/chunk-vendors.e2a1201d.js"></script><script src="js/app.f3cc0253.js"></script></body></html>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet love Bible</title>
+</head>
+
+<body>
+    <div style="margin: 0 auto; width: 700px;">
+        <textarea name="bible" id="bible" cols="100" rows="10"></textarea>
+        <br /><br/>
+        <button id="convert-btn" onclick="handleClick()" type="button">Amen</button>
+        <p id="converted">Chào em, ăn đứng đây từ chiều!</p>
+    </div>
+</body>
+
+</html>
+<script>
+    const pattern = /\d./gm
+    function convert(str) {
+        return 
+    }
+    function handleClick() {
+        let str = document.getElementById("bible").value
+        const newStr = str.replace(/\d./gm, (match) => `\`${match[0]}\` ${match[1]}`)
+        console.log(newStr)
+        document.getElementById("converted").innerText = newStr
+    }
+</script>
